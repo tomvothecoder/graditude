@@ -1,22 +1,22 @@
 -r ./base.txt
 
 ipdb==0.13.4  # https://github.com/gotcha/ipdb
-Sphinx==3.4.0  # https://github.com/sphinx-doc/sphinx
+Sphinx==3.4.3  # https://github.com/sphinx-doc/sphinx
 psycopg2-binary==2.8.6  # https://github.com/psycopg/psycopg2
 
 # Testing
 # ------------------------------------------------------------------------------
-mypy==0.790  # https://github.com/python/mypy
-pytest==6.2.1  # https://github.com/pytest-dev/pytest
-pytest-cov==2.10.1  # https://github.com/pytest-dev/pytest-cov
+mypy==0.800  # https://github.com/python/mypy
+pytest==6.2.2  # https://github.com/pytest-dev/pytest
+pytest-cov==2.11.1  # https://github.com/pytest-dev/pytest-cov
 pytest-sugar==0.9.4  # https://github.com/Frozenball/pytest-sugar
 pytest-django==4.1.0  # https://github.com/pytest-dev/pytest-django
-factory-boy==3.1.0  # https://github.com/FactoryBoy/factory_boy
+factory-boy==3.2.0  # https://github.com/FactoryBoy/factory_boy
 
 # Code Quality
 # ------------------------------------------------------------------------------
 flake8==3.8.4  # https://github.com/PyCQA/flake8
-coverage==5.3.1  # https://github.com/nedbat/coveragepy
+coverage==5.4  # https://github.com/nedbat/coveragepy
 codecov==2.1.11  # https://github.com/codecov/codecov-python
 black==19.10b0  # https://github.com/ambv/black
 
@@ -26,4 +26,4 @@ django-extensions==3.1.0  # https://github.com/django-extensions/django-extensio
 
 # Celery
 # ------------------------------------------------------------------------------
-eventlet==0.30.0  # https://github.com/eventlet/eventlet
+eventlet==0.30.1  # https://github.com/eventlet/eventlet

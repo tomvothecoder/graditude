@@ -3,7 +3,7 @@
   "description": "Graditude",
   "version": "0.1.0",
   "engines": {
-    "node": "10.23.0"
+    "node": "10.23.2"
   },
   "scripts": {
     "postinstall": "cd frontend && yarn add",
